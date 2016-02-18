@@ -1,0 +1,117 @@
+ul#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 140px;
+    left: 0px;
+    list-style: none;
+    z-index:999999;
+}
+ul#navigation li {
+    width: 30px;
+    height:27px;
+}
+ul#navigation li span {
+    display: block;
+    width: 50px;
+    height:50px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;  
+    background: #333 url(../img/icon_gear.png) no-repeat center center;
+    margin-left:-3px;
+    border-left:none !important;
+    cursor:pointer;
+}
+
+  #panel {
+    background: #333;
+    height: 145px;
+    width:145px;
+    position:relative;
+    top:-50px;left:-145px;
+    border-bottom-right-radius:5px;
+}
+.style_black {
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+	background: #000;
+	float: left;
+	margin-left: 11px;
+	margin-bottom: 11px;
+}
+.style_brown {
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+	background: #776251;
+	float: left;
+	margin-left: 11px;
+	margin-bottom: 11px;
+}
+.style_green {
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+	background: #86c543;
+	float: left;
+	margin-left: 0px;
+	margin-bottom: 11px;
+}
+.style_blue {
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+	background: #4284C1;
+	float: left;
+	margin-left: 11px;
+	margin-bottom: 11px;
+}
+.style_red {
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+	background: #C34642;
+	float: left;
+	margin-left: 11px;
+	margin-bottom: 11px;
+} 
+.style_turquoise {
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+	background: #10CDE1;
+	float: left;
+	margin-left: 0px;
+	margin-bottom: 11px;
+}
+.style_turquoise2 {
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+	background: #59C8C2;
+	float: left;
+	margin-left: 11px;
+	margin-bottom: 11px;
+}
+.style_purple {
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+	background: #C145FF;
+	float: left;
+	margin-left: 11px;
+	margin-bottom: 11px;
+}
+.style_orange {
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+	background: #FE5E00;
+	float: left;
+	margin-left: 0px;
+	margin-bottom: 11px;
+}  
+.colour-container {
+	padding:10px 10px 0 10px;
+}           
